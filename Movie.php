@@ -1,3 +1,4 @@
+<?php
 
 class Movie {
     public $title;
@@ -22,3 +23,4 @@ class Movie {
         return implode(', ', $this->genres);
     }
 }
+?>
